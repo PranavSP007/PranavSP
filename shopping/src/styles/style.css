@@ -1,0 +1,92 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.cardDiv{
+    display: flex;
+}
+.category1{
+    background: lightgray;
+    font-size: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+button{
+    display: flex;
+    padding: 9px;
+    cursor: pointer;
+}
+.onClickbtn{
+    background: linen;
+}
+.subsection{
+    font-size: 18px;
+    padding: 5px;
+}
+.subsectionint{
+    font-size: 14px;
+    padding: 0px;
+    margin: auto;
+}
+.mrg{
+    margin-top: -2;
+    padding: 0px 5px;
+    cursor:not-allowed;
+
+}
+.Iconbtn{
+    padding: 10px;
+    cursor: pointer;
+}
+.addedCard{
+    display: flex;
+    padding: 20px;
+    border: 1px solid;
+    margin: 15px;
+    justify-content: space-around;
+}
+.textMargin{
+    padding:0px 5px
+}
+.closeicon{
+    font-size: 22px;
+}
+.inputClass{
+    width: 55%;
+    padding: 10px;
+    margin: 18px 6px;
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.border{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+.bold{
+    font-size: 20px;
+    font-weight: 600;
+}
+.center{
+    margin: auto;
+    margin-right: 2%;
+}
+.closeBtn{
+    float:right;
+    margin: -5px 0 10px 0;
+    cursor: pointer;
+}
+.inputClassBtn{
+    width: 10%;
+    padding: 10px;
+    margin: 18px 6px;
+    font-size: 20px;
+}
